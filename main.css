@@ -1,0 +1,125 @@
+body{
+  background-image: url("bg.jpg");
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.section { /*hide all the sections*/
+  display: none;
+}
+ 
+  .section.active{ /*reveal only the selected section*/
+  display: block;
+
+  }
+  
+.nav{
+  display: none;
+}
+  .next, .previous {
+    border-radius: 6px;
+    color: black ;
+    border: 5px solid black ;
+    border-radius: 23px;
+    letter-spacing: 0.3px ;
+    cursor: pointer;
+  cursor: pointer; /*change the apperance of curser when hovered*/
+  width: 100px;
+  visibility: hidden;
+}
+.TTSButton{
+  position: absolute;
+  top: 400px;
+  left: 130px;
+}
+.言って{
+  padding: 25px 100px;
+  border-radius: 6px;
+  color: black ;
+  border: 5px solid black ;
+  border-radius: 23px;
+  letter-spacing: 0.3px ;
+  cursor: pointer;
+}
+.言って:hover{
+  background-color: rgb(231, 47, 82);
+  color: #fff;
+}
+::placeholder{
+  text-align: center;
+}
+textarea{
+  position: absolute;
+  resize:none;
+  width: 500px;
+  height: 200px;
+  border-radius: 6px;
+  border: 2px solid black ;
+  border-radius: 23px;
+  text-align: center;
+  font-size: 1.5em;
+  top:160px;
+}
+
+.activeBtn {
+  visibility: visible;
+  }
+
+.soundBoards{
+    position: relative;
+    left: 300px;
+  }
+.navBtn{
+position: absolute;
+top:750px;
+left: 1600px;
+  }
+
+body{
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+
+.playBtn { 
+  cursor: pointer;
+  color: black ;
+  border: 5px solid black ;
+  border-radius: 23px;
+  letter-spacing: 0.3px ;
+  font-size: 1.3em;
+  width: 350px;
+  height: 150px;
+}
+
+ .playBtn:hover{
+  background-color: rgb(231, 47, 82);
+  color: #fff;
+ }
+ 
+
+ .box ul{
+  list-style-type: none;  /*removes dot line in li*/
+}
+
+.box li{
+	margin:0 40px 0 0; /*adjust the spacing of boxes.*/
+	  padding:15px; /*adjust the spacing of boxes.*/
+	 float:left; /*make all box align horizontally*/
+	}
+
+ .Btn{
+	position: absolute;
+	top: 130px;
+	left: 298px;
+  
+}
+
+.headerYes{
+  position: absolute;
+  color: white;
+  -webkit-text-stroke: 1.5px rgb(0, 0, 0); /*text border*/
+  font-size: 5em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
